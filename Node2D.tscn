@@ -44,7 +44,7 @@ cell_custom_transform = Transform2D( 32, 0, 0, 32, 0, 0 )
 format = 1
 
 [node name="Player" type="KinematicBody2D" parent="."]
-position = Vector2( 200, 100 )
+position = Vector2( 5, 5 )
 script = ExtResource( 2 )
 
 [node name="sprite" type="Sprite" parent="Player"]
